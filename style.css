@@ -1,0 +1,85 @@
+/* Style behind the fixed width section */
+html{
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	}
+
+/* Fixed width website section */	
+#main {
+	/* Gray */
+	background-color: #404040;
+	width: 800px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+/* Banner at the top of the page */ 
+#banner {
+	/* Dark Gray */
+	background-color: #1a1a1a;
+	width: 800px;
+	height: 200px;
+	}
+	
+/* Navigation Menu */	
+#nav {
+	width: 800px;
+	height: 40px;
+	background-color: gray;
+	font-family: 'Roboto', sans-serif;
+	}
+
+/* Images and text */	
+#content {
+	width: 770px;
+	height: 600px;
+	text-align: left;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	}
+/* Do Not Touch please i beg you */	
+#text {
+	padding-right: 270px;
+	}
+	
+#bitcoinwidget {
+	padding: 10px;
+	float:right;
+	}
+	
+#footer {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	}
+	
+
+/* Menu Bar Style */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #FFA500;
+}
